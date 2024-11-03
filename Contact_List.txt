@@ -1,0 +1,2 @@
+{"jack@domain.com": {"Name": "Jack", "Phone Number": "335-998-8374", "Birthday": "07/07/1983"}}
+{"jess@domain.com": {"Name": "Jess", "Phone Number": "333-333-3333", "Birthday": "03/03/1980"}}
