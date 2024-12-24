@@ -34,7 +34,7 @@ def add_contact(contact_list):
         if continue_input != 'yes':
             break
 
-def edit_contact(contact_list):  # ADD ERROR CATCHING... REGEX FOR PHONE AND BIRTHDAY SYNTAX
+def edit_contact(contact_list):
     while True:
         contact_to_edit = input("\nEnter the email of the contact to edit: ")
         if re.search(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,3}", contact_to_edit):
@@ -153,7 +153,7 @@ def main():
         print("4. Search for a contact")
         print("5. Display all contacts")
         print("6. Export contacts to a text file")
-        print("7. Import contacts from a text file *BONUS*")
+        print("7. Import contacts from a text file")
         print("8. Quit")
         user_choice = input("Enter an option from above: ")
 
